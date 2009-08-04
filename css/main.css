@@ -1,0 +1,131 @@
+body
+{
+	background-color : #000000;
+}
+
+
+.TwitterFollowerLink
+{
+	color:6F6F6F !important;
+	text-decoration : none !important;
+}
+.TwitterFollowerLink:hover
+{
+	color:666666 !important;
+	text-decoration : none !important;
+}
+
+.TwitterFollowerDiv
+{
+	text-align:left;
+	margin-left:20px;
+	font-family:Tahoma;
+	font-size:8pt;
+}
+
+.TwitterFollowerSpanContainer
+{
+	border-left: 1px solid #ccffff;
+	border-top: 1px solid #ccffff;
+	border-right: 1px solid #669999;
+	border-bottom: 1px solid #669999;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px; 
+	padding: 3px; 
+	text-align: center;
+	background-color:#99CCFF;
+}
+
+.TwitterFollowerSpanAmount
+{
+	background-color : #ccffff;
+	border-left: 1px solid #a2a2a2;
+	border-top: 1px solid #a2a2a2;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px; 
+	padding: 0px 10px 0px 10px;
+}
+
+.TwitterFollowerBy
+{
+	font-family:Courier New;
+	font-size:6pt;
+	letter-spacing:7px;
+	text-align:left;
+	text-indent:6px;
+	text-transform:uppercase;
+	font-weight:lighter;
+}
+
+.GithubBadge
+{
+   	padding : 5px;
+}
+
+.GithubBadgeTitle
+{
+	font-weight:bold;
+}
+
+.GithubBadgeRepo
+{
+	background-image : url('http://github.com/images/icons/public.png');
+	background-position : left center;
+	background-repeat : no-repeat;
+	padding-left : 22px;
+}
+
+.GithubBadgeFork
+{
+    font-style : italic;
+}
+
+.centered
+{
+	text-align:center;
+}
+
+.TwitterToolTip
+{
+	text-align:left !important;
+	font-size:8pt;
+}
+
+.TwitterMessage
+{
+	font-style:italic;
+	font-size:10pt;
+	font-family : Courier New;
+}
+
+/* ToolTip Start */ 
+#tooltip {
+    position: absolute;
+    z-index: 3000;
+	border-left: 1px solid #DFDFDF;
+	border-top: 1px solid #DFDFDF;
+	border-right: 1px solid #AFAFAF;
+	border-bottom: 1px solid #AFAFAF;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px; 
+	background-color : #F6F6F6;
+    padding: 5px;
+    opacity: 0.85;
+} #tooltip h3, #tooltip div {
+    margin: 0;
+}
+
+.BreadCrumbs 
+{
+	list-style:none;
+}
+.BreadCrumbs li
+{
+	float:left;
+	display:inline !important;
+}
