@@ -23,7 +23,7 @@ a img {border:none;}
 
 /* typography.css */
 body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
-h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#FFFFFF;}
 h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
 h2 {font-size:2em;margin-bottom:0.75em;}
 h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
@@ -34,8 +34,8 @@ h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
 p {margin:0 0 1.5em;}
 p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
 p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
-a:focus, a:hover {color:#000;}
-a {color:#009;text-decoration:underline;}
+a:focus, a:hover {color:#FFFFFF;}
+a {color:#FF9FF9;text-decoration:underline;}
 blockquote {margin:1.5em;color:#666;font-style:italic;}
 strong {font-weight:bold;}
 em, dfn {font-style:italic;}
@@ -64,7 +64,7 @@ caption {background:#eee;}
 .large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
 .hide {display:none;}
 .quiet {color:#666;}
-.loud {color:#000;}
+.loud {color:#CCC;}
 .highlight {background:#ff0;}
 .added {background:#060;color:#fff;}
 .removed {background:#900;color:#fff;}
