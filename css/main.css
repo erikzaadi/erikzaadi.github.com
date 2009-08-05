@@ -1,6 +1,6 @@
 body
 {
-	color : #FFFFFF;
+	color : #FFFFFF !important;
 	background-color : #000000;
 }
 
@@ -109,6 +109,7 @@ a, a:visited, a:hover
 
 /* ToolTip Start */ 
 #tooltip {
+	color : #000000;
     position: absolute;
     z-index: 3000;
 	border-left: 1px solid #DFDFDF;
