@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://erikzaadi.github.com/</title>
+  <link>http://erikzaadi.github.com/</link>
+
+<item>
+     <link>http://erikzaadi.github.com/</link>
+     <title>Erik Zaadi @ GitHub -> Home</title>
+     
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://erikzaadi.github.com/jQueryPlugins/</link>
+     <title>jQuery Plugins Home</title>
+     
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://erikzaadi.github.com/jQueryPlugins/jQuery.GitHubBadge/</link>
+     <title>jQuery GitHub Badge 1.0</title>
+     
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://erikzaadi.github.com/jQueryPlugins/jQuery.GitHubBadge/Sample/</link>
+     <title>jQuery GitHub Badge 1.0 Sample Page</title>
+     
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
