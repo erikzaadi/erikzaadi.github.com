@@ -1,15 +1,12 @@
 ---
 layout: default
 title: Erik Zaadi @ GitHub -> Home
-areaname: Home
-arealink: /
 link: /
 ---
 
 <div class="span-17 last">
 	<div class="span-17 last">
 		<h2>Project Pages :</h2>
-		{{ site.test }}
 		<dl>
 		{% for project in site.projects %}
 			{% if project.active == false %}
@@ -28,14 +25,9 @@ link: /
 		{% for post in site.posts limit:5 %}
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			{{ post.content }}
-			<em>Posted on {{ post.date | date_to_long_string }}.</em>
+						<em>Posted on {{ post.date | date_to_long_string }}.</em>
 		{% endfor %}
-		{% if site.posts.quantity > 5 %}
 			<hr/>
-			<a href="/posts.html" alt="All Posts">More posts ( {{ site.posts.quantity  }})</a>
-		{% endif %}
-		{% if site.posts.quantity < 1 %}
-			<h2>No posts available yet</h2>
-		{% endif %}
+			<a href="/posts.html" alt="All Posts">All posts</a>
 	</div>
 </div>
