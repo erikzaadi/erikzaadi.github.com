@@ -11,19 +11,30 @@ link: /
 		<h2>Project Pages :</h2>
 		<dl>
 		{% for project in site.projects %}
+			{% if project.active == false %}
+			<!--
+			{% endif %}
 			<dt><h3><a href="{{ project.link }}" alt="{{ project.name }}">{{ project.name }}</a></h3></dt>
-			<dd>{{ project.description }}</dd>		
+			<dd>{{ project.description }}</dd>
+			{% if project.active == false %}
+			-->
+			{% endif %}
+			
 		{% endfor %}
 		</dl>
 	</div>
 	<div class="span-17 last">
-		<h2>Posts</h2>
 		{% for post in site.posts limit:5 %}
-			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			{{ post.content }}
 			<em>Posted on {{ post.date | date_to_long_string }}.</em>
 		{% endfor %}
+		{% if site.posts.quantity > 5 %}
 			<hr/>
 			<a href="/posts.html" alt="All Posts">More posts ( {{ site.posts.quantity  }})</a>
+		{% endif %}
+		{% if site.posts.quantity < 1 %}
+			<h2>No posts available yet</h2>
+		{% endif %}
 	</div>
 </div>

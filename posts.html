@@ -7,9 +7,13 @@ link: /
 ---
 
 <div class="span-17 last">
+{% if site.posts.quantity > 0 %}
 	{% for post in site.posts %}
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	{{ post.content }}
 	<em>Posted on {{ post.date | date_to_long_string }}.</em>
 	{% endfor %}
+{% else %}
+	<h2>No posts available yet</h2>
+{% endif %}
 </div>
