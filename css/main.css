@@ -130,16 +130,15 @@ a, a:visited, a:hover
 {
 	list-style:none;
 }
+
 .BreadCrumbs li
 {
-	float:left;
+	padding : 2px !important;
 	display:inline !important;
 }
 
-.postcontent
+.padmeten
 {
+	padding : 10px 10px 10px 10px !important;
 }
 
-#post
-{
-}

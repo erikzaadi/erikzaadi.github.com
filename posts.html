@@ -1,19 +1,16 @@
 ---
 layout: default
-title: All posts
-areaname: Home
-arealink: /
+title: Posts
 link: /
 ---
 
 <div class="span-17 last">
-{% if site.posts.quantity > 0 %}
+{% if site.posts.size > 0 %}
 	{% for post in site.posts %}
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	{{ post.content }}
-	<em>Posted on {{ post.date | date_to_long_string }}.</em>
+		{% include post_include.html %}
+		<div class="span-17 last">&nbsp;</div>
 	{% endfor %}
 {% else %}
-	<h2>No posts available yet</h2>
+	<div class="notice span-5 last">No posts available yet..</div>
 {% endif %}
 </div>

@@ -1,33 +1,30 @@
 ---
 layout: default
 title: Erik Zaadi @ GitHub -> Home
-link: /
 ---
 
 <div class="span-17 last">
 	<div class="span-17 last">
-		<h2>Project Pages :</h2>
-		<dl>
+		<h3><a href="projects.html" alt="Projects">Project Pages</a> :</h3>
 		{% for project in site.projects %}
-			{% if project.active == false %}
-			<!--
-			{% endif %}
-			<dt><h3><a href="{{ project.link }}" alt="{{ project.name }}">{{ project.name }}</a></h3></dt>
-			<dd>{{ project.description }}</dd>
-			{% if project.active == false %}
-			-->
-			{% endif %}
-			
+			{% include project_include.html %}
+				<div class="span-17 last">&nbsp;</div>
 		{% endfor %}
-		</dl>
+			<a href="/projects.html" alt="All Projects">All projects ({{ site.projects.size }})</a>
 	</div>
+	<div class="span-17 last">&nbsp;</div>
 	<div class="span-17 last">
-		{% for post in site.posts limit:5 %}
-			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			{{ post.content }}
-						<em>Posted on {{ post.date | date_to_long_string }}.</em>
-		{% endfor %}
-			<hr/>
-			<a href="/posts.html" alt="All Posts">All posts</a>
+		<h3><a href="posts.html" alt="Posts">Posts</a> :</h3>
+		{% if site.posts.size > 0 %}
+			{% for post in site.posts limit:2 %}
+				{% include post_include.html %}
+				<div class="span-17 last">&nbsp;</div>
+			{% endfor %}
+			{% if site.posts.size > 2 %}
+				<a href="/posts.html" alt="All Posts">All posts ({{ site.posts.size }})</a>
+			{% endif %}
+		{% else %}
+			<div class="notice span-5 last">No posts available yet..</div>
+		{% endif %}
 	</div>
 </div>
