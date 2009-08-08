@@ -1,16 +1,7 @@
 ---
 layout: default
 title: Posts
-link: /
+link: /posts.html
 ---
 
-<div class="span-17 last">
-{% if site.posts.size > 0 %}
-	{% for post in site.posts %}
-		{% include post_include.html %}
-		<div class="span-17 last">&nbsp;</div>
-	{% endfor %}
-{% else %}
-	<div class="notice span-5 last">No posts available yet..</div>
-{% endif %}
-</div>
+{% include posts_include.html %}

@@ -142,3 +142,7 @@ a, a:visited, a:hover
 	padding : 10px 10px 10px 10px !important;
 }
 
+.ui-state-default
+{
+    padding : 4px;
+}

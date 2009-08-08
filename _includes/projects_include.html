@@ -1,0 +1,17 @@
+{% if site.projects.size > 0 %}
+    <div class="accordionme">
+        {% for project in site.projects %}
+	        {% include project_include.html %}
+        {% endfor %}
+    </div>
+    <div>&nbsp;</div>
+    {% if page.link == '/projects.html' %}
+    <div>&nbsp;</div>
+    {% else %}    
+    <div>
+        <a href="/projects.html" alt="All Projects">All projects ({{ site.projects.size }})</a>
+    </div>
+    {% endif %}
+{% else %}
+    <div class="notice">No projects submitted yet..</div>
+{% endif %}

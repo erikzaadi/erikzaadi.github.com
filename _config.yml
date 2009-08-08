@@ -1,8 +1,28 @@
+#Reset when committing!
+usegoogleanalytics : true
+#Reset when committing!
+localmode : false
 projects: 
   - name : 'jQuery Plugins'
-    link : '/jQueryPlugins'  
+    link : '/jQueryPlugins'
     description : 'Collection of jQuery plugins'
     language : 'Javascript'
     platform : 'Web'
+    modified : 03-08-1999
+    created : 03-05-2009
+#placeholder
+templateforprojects:
+  - name : 'jQuery Plugins1'
+    link : '/jQueryPlugins1'
+    description : 'Collecti1on of jQuery plugins'
+    language : 'Javascript1'
+    platform : 'Web1'
+    modified : 03-08-1999
+    created : 03-05-2009
+  - name : 'jQuery Plugins2'
+    link : '/jQueryPlugins2'
+    description : 'Collecti21on of jQuery plugins'
+    language : 'Javascript12'
+    platform : 'Web12'
     modified : 03-08-1999
     created : 03-05-2009

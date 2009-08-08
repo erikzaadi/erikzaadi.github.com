@@ -1,30 +1,22 @@
+--- 
+layout: default 
+title: Erik Zaadi @ GitHub -> Home 
 ---
-layout: default
-title: Erik Zaadi @ GitHub -> Home
----
-
 <div class="span-17 last">
-	<div class="span-17 last">
-		<h3><a href="projects.html" alt="Projects">Project Pages</a> :</h3>
-		{% for project in site.projects %}
-			{% include project_include.html %}
-				<div class="span-17 last">&nbsp;</div>
-		{% endfor %}
-			<a href="/projects.html" alt="All Projects">All projects ({{ site.projects.size }})</a>
-	</div>
-	<div class="span-17 last">&nbsp;</div>
-	<div class="span-17 last">
-		<h3><a href="posts.html" alt="Posts">Posts</a> :</h3>
-		{% if site.posts.size > 0 %}
-			{% for post in site.posts limit:2 %}
-				{% include post_include.html %}
-				<div class="span-17 last">&nbsp;</div>
-			{% endfor %}
-			{% if site.posts.size > 2 %}
-				<a href="/posts.html" alt="All Posts">All posts ({{ site.posts.size }})</a>
-			{% endif %}
-		{% else %}
-			<div class="notice span-5 last">No posts available yet..</div>
-		{% endif %}
-	</div>
+    <div class="span-17 last">
+        <div class="span-17 last">
+            <h3>
+                <a href="projects.html" alt="Projects">Project Pages</a> :</h3>
+        </div>
+        <div class="span-17 last">
+            {% include projects_include.html %}
+        </div>
+    </div>
+    <div class="span-17 last">
+        &nbsp;</div>
+    <div class="span-17 last">
+        <h3>
+            <a href="posts.html" alt="Posts">Posts</a> :</h3>
+            {% include posts_include.html %}
+    </div>
 </div>

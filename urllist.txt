@@ -3,9 +3,6 @@ layout: nil
 ---
 http://erikzaadi.github.com/
 http://erikzaadi.github.com/posts.html
-http://erikzaadi.github.com/projects.html
-http://erikzaadi.github.com/jQueryPlugins/
-http://erikzaadi.github.com/jQueryPlugins/jQuery.GitHubBadge/
-http://erikzaadi.github.com/jQueryPlugins/jQuery.GitHubBadge/Sample/{% for post in site.posts %}
-http://erikzaadi.github.com{{ post.url }}
-{% endfor %}
+http://erikzaadi.github.com/projects.html{% for post in site.posts %}
+http://erikzaadi.github.com/{{ post.url }}{% endfor %}{% for project in site.projects %}
+http://erikzaadi.github.com{{ project.link }}{% endfor %}
