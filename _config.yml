@@ -1,7 +1,7 @@
 #Reset when committing!
-usegoogleanalytics : false
+usegoogleanalytics : true
 #Reset when committing!
-localmode : true
+localmode : false
 projects: 
   - name : 'jQuery Plugins'
     link : '/jQueryPlugins'
