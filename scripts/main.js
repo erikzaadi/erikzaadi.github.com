@@ -16,7 +16,7 @@ $(document).ready(function() {
 		.select(function(){ setSelected(this, true);})
 		.fadeTo('fast', 0.8);
     //Separate things that load scripts..
-    $(".accordionme").accordion({collapsible: true});
+    $(".accordionme").accordion({collapsible: true, active:false});
     setTimeout(function() {
         var user = "erikzaadi";
         $('#switcher').themeswitcher();
