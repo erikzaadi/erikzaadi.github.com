@@ -9,7 +9,14 @@ projects:
     language : 'Javascript'
     platform : 'Web'
     modified : 03-08-1999
-    created : 03-05-2009
+    created : 03-05-2009  
+  - name : 'ConvertToEncodingTool'
+    link : '/ConvertToEncodingTool'
+    description : 'Library that converts the encoding of text based files (either per single file or per root folder). Filtering according to file extensions is also possible..'
+    language : 'C# (.NET 3.5)'
+    platform : 'Desktop'
+    modified : 18-07-1999
+    created : 18-07-2009
 #placeholder
 templateforprojects:
   - name : 'jQuery Plugins1'
