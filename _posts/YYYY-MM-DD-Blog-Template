@@ -26,4 +26,11 @@ layout: post
     <span>dsad wadw wads</span> <span>dsad wadw wads</span> <span>dsad wadw wads</span>
     <span>dsad wadw wads</span> <span>dsad wadw wads</span> <span>dsad wadw wads</span>
     <span>dsad wadw wads</span> <span>dsad wadw wads</span>
+
+	  <div id="pygments">
+	{% highlight js %}
+		function(dsad){
+			dsad.toString(); //dsadasdsa
+		}
+	{% endhighlight %}
 </div>
