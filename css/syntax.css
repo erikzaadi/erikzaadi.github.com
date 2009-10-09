@@ -1,8 +1,11 @@
 #pygments .highlight {
 	line-height: 80%;
-	border-top: 1px solid #CCC;
-	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
 	background : none !important;
+	background-color : #CCCCCA !important;
+	background-image : none !important;
+	padding : 5px !important;
 }
 #pygments .highlight br {
   height: 0px;

@@ -11,12 +11,12 @@ a, a:visited, a:hover
 
 .TwitterFollowerLink
 {
-	color:6F6F6F !important;
+	color:#6F6F6F !important;
 	text-decoration : none !important;
 }
 .TwitterFollowerLink:hover
 {
-	color:666666 !important;
+	color:#666666 !important;
 	text-decoration : none !important;
 }
 
