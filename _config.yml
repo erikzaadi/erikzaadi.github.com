@@ -17,7 +17,14 @@ projects:
     language : 'C# (.NET 3.5)'
     platform : 'Desktop'
     modified : 18-07-1999
-    created : 18-07-2009
+    created : 18-07-2009  
+  - name : 'Google Analytics.NET'
+    link : '/GA.NET'
+    description : 'Google Analytics Include Generator (With support for javascript disabled browsers).'
+    language : 'C# (.NET 3.5)'
+    platform : 'Web'
+    modified : 26-10-1999
+    created : 26-10-2009
 #placeholder
 templateforprojects:
   - name : 'jQuery Plugins1'
