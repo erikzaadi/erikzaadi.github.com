@@ -1,8 +1,8 @@
 ---
 layout: nil
 ---
-http://erikzaadi.github.com/
-http://erikzaadi.github.com/posts.html
-http://erikzaadi.github.com/projects.html{% for post in site.posts %}
-http://erikzaadi.github.com/{{ post.url }}{% endfor %}{% for project in site.projects %}
-http://erikzaadi.github.com{{ project.link }}{% endfor %}
+http://projects.erikzaadi.com/
+http://projects.erikzaadi.com/posts.html
+http://projects.erikzaadi.com/projects.html{% for post in site.posts %}
+http://projects.erikzaadi.com/{{ post.url }}{% endfor %}{% for project in site.projects %}
+http://projects.erikzaadi.com{{ project.link }}{% endfor %}

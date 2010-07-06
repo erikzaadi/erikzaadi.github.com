@@ -9,25 +9,25 @@ layout: nil
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     {% for post in site.posts %}
     <url>
-        <loc>http://erikzaadi.github.com{{ post.url }}</loc>
+        <loc>http://projects.erikzaadi.com{{ post.url }}</loc>
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>{% endfor %}{% for project in site.projects %}
     <url>
-        <loc>http://erikzaadi.github.com{{ project.link }}</loc>
+        <loc>http://projects.erikzaadi.com{{ project.link }}</loc>
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>{% endfor %}
     <url>
-        <loc>http://erikzaadi.github.com/posts.html</loc>
+        <loc>http://projects.erikzaadi.com/posts.html</loc>
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>http://erikzaadi.github.com/projects.html</loc>
+        <loc>http://projects.erikzaadi.com/projects.html</loc>
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
