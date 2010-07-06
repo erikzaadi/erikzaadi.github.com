@@ -146,3 +146,8 @@ a, a:visited, a:hover
 {
     padding : 4px;
 }
+
+.ui-widget-content h4, .ui-widget-content h2, .ui-widget-content h3
+{
+	color : #FFF;
+}
